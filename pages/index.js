@@ -43,17 +43,16 @@ function HomePage() {
   function Header(){
     return (
         <StyledHeader>
-          {/* <img src="banner"/> */}
+           <img src="banner"/> 
             
             <section className="user-info">
-            <img src={`https://github.com/${config.github}.png`}/>
+            <img src={'https://github.com/${config.github}.png'}/>
             {config.name}
             {config.job}
             </section>
         </StyledHeader>
     )
   }
-
 
 
   function Timeline(){
